@@ -1,0 +1,43 @@
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+  .cross-sell li .producttitle {
+  min-height: 70px !important;
+}
+  .cross-sell li .image {
+    min-height: 230px !important;
+}
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .cross-sell li .producttitle {
+  min-height: 70px !important;
+}
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cross-sell .flickity-slider {
+    width: 115% !important;
+  }
+  
+}
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .cross-sell .flickity-slider {
+  margin-left: 20px !important;
+  margin-right: auto !important;
+  width: 105% !important
+  
+}
+  
+}
