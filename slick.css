@@ -1,0 +1,119 @@
+.cross-sell.xs-v2 .xs-card .xs-card-body .xs-product-title
+{
+  text-align: center !important;
+  min-height: 55px !important;
+}
+  .cross-sell.xs-v2 .xs-card .xs-image
+ {
+    min-height: 230px !important;
+}
+    
+    
+.cross-sell.xs-v2 .xs-card .xs-card-footer .xs-price {
+   text-align: center !important;
+  
+    }
+
+    
+/*desktops - higher resolution*/
+@media (min-width: 1281px) {
+
+}
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+ 
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 820px) and (max-width: 1024px) {
+  
+  .cross-sell .flickity-slider {
+    width: 107% !important;
+    margin-left: 5px !important;
+  }
+  .cross-sell.xs-v2 .xs-card {
+    width: 222px !important;
+  }
+ .cross-sell.xs-v2 .xs-card .xs-image {
+   width: 220px !important;
+  
+}
+}
+  
+ 
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .cross-sell .flickity-slider {
+    width: 95% !important;
+    margin-left: 5px !important;
+  }
+  .cross-sell.xs-v2 .xs-card {
+    width: 222px !important;
+  }
+ .cross-sell.xs-v2 .xs-card .xs-image {
+   width: 220px !important;
+  
+}
+}
+
+ /*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 819px) {
+  .cross-sell .flickity-slider {
+    width: 95% !important;
+    margin-left: 5px !important;
+  }
+  
+  .cross-sell.xs-v2 .xs-card {
+    width: 222px !important;
+  }
+  
+  .cross-sell.xs-v2 .xs-card .xs-image {
+   width: 220px !important;
+  
+}
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 767px) {
+   .cross-sell .flickity-slider {
+    width: 200% !important;
+  }
+  
+  .cross-sell.xs-v2 .xs-card .xs-image {
+    width: 225px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+  }
+  
+  .cross-sell.xs-v2.flickity-enabled .xs-card {
+  	width: 50% !important
+  }
+  
+}
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .cross-sell .flickity-slider {
+    width: 200% !important;
+  }
+  
+  .cross-sell.xs-v2 .xs-card .xs-image {
+    width: 225px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    
+  }
+  
+  .cross-sell.xs-v2.flickity-enabled .xs-card {
+  	width: 50% !important
+  }
+  
+  
+}
+
+
+
