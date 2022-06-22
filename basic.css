@@ -1,3 +1,10 @@
+
+.cross-sell li .producttitle {
+  min-height: 70px !important;
+}
+  .cross-sell li .image {
+    min-height: 230px !important;
+}
 /*desktops - higher resolution*/
 @media (min-width: 1281px) {
   .cross-sell li .producttitle {
@@ -25,19 +32,41 @@
 
 /*tablets, ipads (landscape)*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+   .cross-sell .flickity-slider {
+     width: 100% !important;
+     margin-left: 15px !important;
+  
 }
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
+  .cross-sell li .producttitle {
+  min-height: 70px !important;
+}
+  .cross-sell li .image {
+    min-height: 230px !important;
+}
+  
+  .cross-sell .flickity-slider {
+  margin-left: 35px !important;
+  margin-right: auto !important;
+  width: 120% !important;
+  
+}
 }
 
 /*smartphones mobiles (portrait)*/
 @media (min-width: 320px) and (max-width: 480px) {
   .cross-sell .flickity-slider {
-  margin-left: 20px !important;
+  margin-left: 15px !important;
   margin-right: auto !important;
-  width: 105% !important
+  width: 105% !important;
   
 }
   
+  
+  
 }
+
+
+
