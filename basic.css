@@ -37,6 +37,7 @@
      margin-left: 15px !important;
   
 }
+}
 
 /*low resolution tablets, mobiles (landscape)*/
 @media (min-width: 481px) and (max-width: 767px) {
